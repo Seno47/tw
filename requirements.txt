@@ -1,0 +1,5 @@
+truststore
+yarl
+pillow
+aiohttp
+pystray
