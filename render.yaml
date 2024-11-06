@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: ttvdropbot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: py main.py
+    autoDeploy: true
